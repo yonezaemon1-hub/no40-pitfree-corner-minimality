@@ -1,0 +1,16 @@
+Author execution: Python 3.12.14, Linux-side environment, 2026-10-26
+
+$ python3 verify.py
+PASS: exactly two fixed strict boundary sinks for the WHOLE closed box
+PASS: all four box corners reach A; (0,0) reaches B
+PASS: two separately written routing implementations agree on all cells on every face
+PASS: source formula, switching-line ties, and induced-path checks
+Arrangement faces: {"0": 16, "1": 23, "2": 8}
+Routing maps: 3 Terminal maps: 3
+PASS: exact witness checks complete; universal minimality uses PROOF.md
+
+$ python3 audit_3x3.py
+PASS: candidate terrains 1120 accepted fixed-two-sink terrains 362
+PASS: unanimous corner cases 233 exact arrangement faces 10028
+PASS: 3x3 diagnosis; no counterexample in this finite corpus
+NOT an exhaustive height-space search; see the analytical minimality proof

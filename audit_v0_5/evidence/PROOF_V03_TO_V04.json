@@ -1,0 +1,19 @@
+{
+  "scope": "Exact byte comparison of PROOF.md inside the two preserved release ZIPs.",
+  "v03_zip_sha256": "b3383e8a2db2a1afd6807027af144b899aa76b104309298980dfeab9e4023880",
+  "v04_zip_sha256": "c1bc4fc527a6b7e24fe8d09e5a32d5416823e3eeaba35a77a4d722e72a6bf87a",
+  "v03_proof_sha256": "c2338317c59f8caccdde6843485e6b7c359578dae39119eab121c8a842e3cad1",
+  "v04_proof_sha256": "c5ab04996f469b034eab257977994806f00c5b2da3250d3176266863d1c62a63",
+  "changed_lines": [
+    {
+      "line_1based": 3,
+      "before": "Mathematical text: v0.2, 26 October 2026, unchanged in distribution v0.3.",
+      "after": "Mathematical text: v0.2, 26 October 2026, unchanged in distribution v0.4."
+    }
+  ],
+  "mathematical_body_anchor": "## 1. Exact model and theorem statements",
+  "mathematical_body_byte_identical": true,
+  "mathematical_body_sha256": "fea16217acefce10ac24072447ea75b694c56fa2888640a2d44a298a25aeff14",
+  "diff_file": "evidence/PROOF_V03_TO_V04.diff",
+  "note": "The received reviewer did not confirm this comparison. This receipt is a subsequent author-side byte check, not attributed to that reviewer."
+}

@@ -1,0 +1,128 @@
+{
+  "package_version": "0.4",
+  "date": "2026-10-26",
+  "scope": "Targeted author-side primary-source comparison; not exhaustive or independently audited.",
+  "driemel_final": {
+    "title": "Flow computations on imprecise terrains",
+    "doi": "10.20382/jocg.v4i1a3",
+    "journal": "Journal of Computational Geometry 4(1), 38-78 (2013)",
+    "publisher_url": "https://jocg.org/index.php/jocg/article/view/2939",
+    "requested_and_final_download_url": "https://jocg.org/index.php/jocg/article/download/2939/2633/7308",
+    "retrieval": "SUCCESS with direct Python urllib HTTP download. Search-service PDF fetch still failed; that does not negate the successful publisher download.",
+    "bytes": 764548,
+    "sha256": "28f28eef07adcced41abe92d81ed57b739135ec5ee8fbb42db4e3a0e44abda27",
+    "pdf_pages": 41,
+    "printed_pages": "38-78",
+    "targeted_printed_pages_checked": [
+      40,
+      41,
+      51,
+      55,
+      56,
+      59,
+      62,
+      67,
+      72,
+      73,
+      74,
+      78
+    ],
+    "anchors": [
+      "2.1-2.2 model",
+      "4.1.1 Definition 1 / Lemma 4",
+      "Theorems 2-3",
+      "4.3 persistent watersheds",
+      "Theorem 5",
+      "Lemmas 15 and 20 / Theorem 6",
+      "6 Conclusions",
+      "Appendix B Lemma 21 / Figure 13"
+    ],
+    "full_page_by_page_comparison_claimed": false,
+    "redistributed": false
+  },
+  "allene_manuscript": {
+    "url": "https://imagine.enpc.fr/publications/papers/IMAVIS09.pdf",
+    "final_journal_doi": "10.1016/j.imavis.2009.06.017",
+    "readable_pages": 27,
+    "checked_anchors": [
+      "manuscript Theorem 5.3 pp.11-12",
+      "Remark 5.2",
+      "Appendix A p.18",
+      "Appendix B p.19"
+    ],
+    "numbering": "Author manuscript numbering; final journal numbering not asserted."
+  },
+  "cousty_2026": {
+    "url": "https://link.springer.com/article/10.1007/s10851-026-01347-0",
+    "title": "Playing with Kruskal: A State-of-the-Art Report on Watershed Cuts",
+    "publication_date": "2026-09-04",
+    "journal": "Journal of Mathematical Imaging and Vision 68, article 65",
+    "checked_anchors": [
+      "3.1 unseeded characterization",
+      "3.2 Theorem 3 and rooted-MSF definition",
+      "seed-based Kruskal algorithms",
+      "references to Allene et al."
+    ]
+  },
+  "meyer_2012_readable_additional_work": {
+    "url": "https://arxiv.org/html/1204.2837v1",
+    "title": "Watersheds, waterfalls, on edge or node weighted graphs",
+    "note": "Distinct from arXiv:1204.2134, which was also obtained and inspected in this follow-up."
+  },
+  "claim_disposition": {
+    "known_msf_encoding": "Proved author-side in MSF_EQUIVALENCE.md; not externally independently audited.",
+    "exact_minimum_12": "No match/direct derivation identified in inspected passages; historical novelty INCONCLUSIVE."
+  },
+  "meyer_steepest_full": {
+    "url": "https://arxiv.org/pdf/1204.2134",
+    "bytes": 2542609,
+    "sha256": "f3fc9c364ddc801507ccf05e90feeccd92e81bcc84cbf01019b9ef2ecc13b5ea",
+    "pdf_pages": 29,
+    "observed_banner": "arXiv:1204.2134v1 [cs.CV] 10 Apr 2012",
+    "observed_title_page_date": "September 15, 2021",
+    "inspected_pdf_pages": [
+      4,
+      5,
+      6,
+      24,
+      26,
+      27
+    ],
+    "checked_anchors": [
+      "2.2 drainage graphs",
+      "2.3 lexicographic path order",
+      "2.4 pruning",
+      "6 Discussion",
+      "7 Conclusion"
+    ],
+    "note": "Basic drainage is known; full-path lexicographic pruning differs from the fixed local tie rule. The Section 7 Bieniek-Moga citation is noted, not a full review of that 2000 paper.",
+    "redistributed": false
+  },
+  "additional_direct_download_retries": [
+    {
+      "name": "Meyer_steepest_2012",
+      "requested_url": "https://arxiv.org/pdf/1204.2134",
+      "final_url": "https://arxiv.org/pdf/1204.2134",
+      "status": "SUCCESS",
+      "bytes": 2542609,
+      "sha256": "f3fc9c364ddc801507ccf05e90feeccd92e81bcc84cbf01019b9ef2ecc13b5ea"
+    },
+    {
+      "name": "Meyer_waterfall_2015",
+      "requested_url": "https://people.cmm.minesparis.psl.eu/users/marcoteg/cv/publi_pdf/MM_refs/meyer/2015_ismm_waterfall_meyer_paper.pdf",
+      "status": "FAILED",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "Straehle_seeded_2012",
+      "requested_url": "https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/1508043927/straehle_12_seeded.pdf",
+      "status": "FAILED",
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ],
+  "straehle_proceedings_direct_retry": {
+    "status": "FAILED",
+    "requested_url": "https://projet.liris.cnrs.fr/imagine/pub/proceedings/CVPR2012/data/papers/097_P1B-44.pdf",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+}

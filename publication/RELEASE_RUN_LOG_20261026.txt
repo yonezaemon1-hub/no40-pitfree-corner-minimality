@@ -1,0 +1,44 @@
+Author-side release execution, 26 October 2026.
+Linux-6.18.55-x86_64-with-glibc2.39
+Python 3.12.14
+Working directory: /tmp
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I /workspace/scratch/1c71b1dd10a6/no40_release_v10/audit_v0_5/check_hashes.py
+PASS SHA256 36 files
+
+Exit code: 0; elapsed seconds: 0.023529
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I /workspace/scratch/1c71b1dd10a6/no40_release_v10/audit_v0_5/verify.py
+PASS: exactly two fixed strict boundary sinks for the WHOLE closed box
+PASS: all four box corners reach A; (0,0) reaches B
+PASS: two separately written routing implementations agree on all cells on every face
+PASS: source formula, switching-line ties, and induced-path checks
+Arrangement faces: {"0": 16, "1": 23, "2": 8}
+Routing maps: 3 Terminal maps: 3
+PASS: exact witness checks complete; universal minimality uses PROOF.md
+
+Exit code: 0; elapsed seconds: 0.068462
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I /workspace/scratch/1c71b1dd10a6/no40_release_v10/audit_v0_5/audit_3x3.py
+PASS: candidate terrains 1120 accepted fixed-two-sink terrains 362
+PASS: unanimous corner cases 233 exact arrangement faces 10028
+PASS: 3x3 diagnosis; no counterexample in this finite corpus
+NOT an exhaustive height-space search; see the analytical minimality proof
+
+Exit code: 0; elapsed seconds: 4.486458
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I /workspace/scratch/1c71b1dd10a6/no40_release_v10/audit_v0_5/audit_msf_equivalence.py
+PASS: D4 descent = rooted Kruskal = exhaustive rooted MSF = augmented MST
+Grid: 12 vertices, 17 edges; subset candidates: 19448
+Feasible rooted forests: 3255 exact parameter faces: 47
+Exhaustive cost comparisons: 152985
+Distinct rooted MSFs: 3 ; all optimum forests unique, including fixed ties
+PASS: separate-pendant encoding has exactly two regional edge minima
+This establishes a known-framework encoding, not novelty or a new minimality proof.
+
+Exit code: 0; elapsed seconds: 0.652499
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I /workspace/scratch/1c71b1dd10a6/no40_release_v10/audit_v0_5/check_hashes.py
+PASS SHA256 36 files
+
+Exit code: 0; elapsed seconds: 0.024490

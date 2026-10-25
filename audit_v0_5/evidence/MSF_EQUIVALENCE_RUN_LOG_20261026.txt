@@ -1,0 +1,16 @@
+Author execution, 26 October 2026.
+Linux-6.18.55-x86_64-with-glibc2.39
+Python 3.12.14
+Working directory: /tmp
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I /workspace/scratch/1c71b1dd10a6/no40_v02/audit_msf_equivalence.py
+PASS: D4 descent = rooted Kruskal = exhaustive rooted MSF = augmented MST
+Grid: 12 vertices, 17 edges; subset candidates: 19448
+Feasible rooted forests: 3255 exact parameter faces: 47
+Exhaustive cost comparisons: 152985
+Distinct rooted MSFs: 3 ; all optimum forests unique, including fixed ties
+PASS: separate-pendant encoding has exactly two regional edge minima
+This establishes a known-framework encoding, not novelty or a new minimality proof.
+
+Exit code: 0
+Elapsed seconds: 0.686944

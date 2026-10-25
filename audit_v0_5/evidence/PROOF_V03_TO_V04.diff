@@ -1,0 +1,10 @@
+--- v0.3/PROOF.md
++++ v0.4/PROOF.md
+@@ -1,6 +1,6 @@
+ # Minimal failure of corner tests for D4 drainage with two fixed boundary sinks
+ 
+-Mathematical text: v0.2, 26 October 2026, unchanged in distribution v0.3.
++Mathematical text: v0.2, 26 October 2026, unchanged in distribution v0.4.
+ An external AI proof audit of v0.2 was received and reports PASS; see
+ reviews/RECEIVED_AI_REVIEW_20261026.md. This status note is editorial only.
+ Historical novelty remains INCONCLUSIVE; no human peer review is claimed.

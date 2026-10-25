@@ -1,0 +1,11 @@
+{
+  "model": "full rectangular D4 grid; strict descent; row-major ties; no forced boundary absorption or depression filling",
+  "height": [[-6,-10,-6],[-3,10,-3],[1,5,1],[6,0,6]],
+  "box": ["-2","2","-1/2","1/2"],
+  "source": [2,1],
+  "outlet_a": [0,1],
+  "outlet_b": [3,1],
+  "source_formula": "A iff abs(a)+b >= 1; B otherwise",
+  "version": "0.2",
+  "date": "2026-10-26"
+}

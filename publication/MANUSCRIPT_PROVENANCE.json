@@ -1,0 +1,21 @@
+{
+  "public_preprint_version": "1.0",
+  "client_publication_date": "2026-10-26",
+  "doi": "10.5281/zenodo.23652373",
+  "audited_candidate": "0.5",
+  "proof_body_sha256": "fea16217acefce10ac24072447ea75b694c56fa2888640a2d44a298a25aeff14",
+  "msf_body_sha256": "4761af473d0ea299d181b1be0fe71b89b14300622beaa88a21baf50162ab43a4",
+  "proof_body_verbatim_in_markdown": true,
+  "msf_body_verbatim_in_markdown": true,
+  "typesetting_changes": "Formatting only; added abstract, context, exact figure, audit notes and references.",
+  "new_mathematical_theorem_or_verifier": false,
+  "novelty": "INCONCLUSIVE",
+  "human_peer_review": "Not performed",
+  "pdf_sha256": "2c1ed3d2a8537b4ce2fd9856efd2e8561896e459a35f37207af34d5545d82978",
+  "audited_zip_sha256": "af597a749ac6c1b8c6aeaac892b5e42f3880147d037b350dacb794484110024e",
+  "original_extracted_files_preserved": 37,
+  "all_six_original_python_scripts_byte_identical": true,
+  "original_mathematical_json_byte_identical": true,
+  "fresh_release_verifiers": "PASS; see RELEASE_RUN_LOG_20261026.txt",
+  "pdf_pages": 9
+}

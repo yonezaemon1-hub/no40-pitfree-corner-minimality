@@ -1,0 +1,1200 @@
+{
+  "status": "PASS",
+  "purpose": "Known-MSF equivalence audit, not a novelty claim",
+  "vertices": 12,
+  "grid_edges": 17,
+  "subset_candidates": 19448,
+  "feasible_rooted_spanning_forests": 3255,
+  "exact_faces_checked": 47,
+  "forest_cost_comparisons": 152985,
+  "unique_optimum_at_every_face": true,
+  "distinct_rooted_msfs": 3,
+  "super_root_edges_constant_primary_weight": "-23",
+  "edge_encoding": "(H_u+H_v, row_major_rank(u)+row_major_rank(v)), lexicographic",
+  "checks": [
+    "all rooted forests enumerated",
+    "rooted Kruskal agrees",
+    "ordinary augmented MST agrees",
+    "all terminal labels agree",
+    "separate-pendant forest agrees; only pendants are regional edge minima",
+    "every boundary/tie face included"
+  ],
+  "scope": "The general reduction uses the cut-property proof in MSF_EQUIVALENCE.md. This finite check does not prove the universal 3x3 theorem or historical novelty.",
+  "faces": [
+    {
+      "dimension": 0,
+      "a": "-2",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-91",
+        94
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "-2",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-67",
+        94
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "-3/2",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-80",
+        94
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "-3/2",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-56",
+        94
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "-1",
+      "b": "0",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-57",
+        94
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "-1/2",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-60",
+        98
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "-1/2",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-34",
+        94
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "0",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-50",
+        98
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "0",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-24",
+        98
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "1/2",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-40",
+        98
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "1/2",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-14",
+        90
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "1",
+      "b": "0",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-17",
+        90
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "3/2",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-20",
+        90
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "3/2",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "4",
+        90
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "2",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-11",
+        90
+      ]
+    },
+    {
+      "dimension": 0,
+      "a": "2",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "13",
+        90
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-2",
+      "b": "0",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-79",
+        94
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-7/4",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-171/2",
+        94
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-7/4",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-123/2",
+        94
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-5/4",
+      "b": "-1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-137/2",
+        94
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-5/4",
+      "b": "1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-113/2",
+        94
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-1",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-70",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-1",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-45",
+        94
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-3/4",
+      "b": "-1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-117/2",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-3/4",
+      "b": "1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-91/2",
+        94
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-1/4",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-55",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "-1/4",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-29",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "0",
+      "b": "0",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-37",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "1/4",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-45",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "1/4",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-19",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "3/4",
+      "b": "-1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-57/2",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "3/4",
+      "b": "1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-31/2",
+        90
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "1",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-30",
+        98
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "1",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-5",
+        90
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "5/4",
+      "b": "-1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-37/2",
+        90
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "5/4",
+      "b": "1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-13/2",
+        90
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "7/4",
+      "b": "-1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-31/2",
+        90
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "7/4",
+      "b": "1/2",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "17/2",
+        90
+      ]
+    },
+    {
+      "dimension": 1,
+      "a": "2",
+      "b": "0",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "1",
+        90
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "-7/4",
+      "b": "3/8",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-129/2",
+        94
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "-1",
+      "b": "-1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-127/2",
+        98
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "-1",
+      "b": "1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        15
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-51",
+        94
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "-1/4",
+      "b": "3/8",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-129/4",
+        98
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "1/4",
+      "b": "3/8",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-89/4",
+        98
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "1",
+      "b": "-1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12,
+        15,
+        16
+      ],
+      "source_outlet": [
+        3,
+        1
+      ],
+      "minimum_cost": [
+        "-47/2",
+        98
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "1",
+      "b": "1/4",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "-11",
+        90
+      ]
+    },
+    {
+      "dimension": 2,
+      "a": "7/4",
+      "b": "3/8",
+      "unique_rooted_msf_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        16
+      ],
+      "source_outlet": [
+        0,
+        1
+      ],
+      "minimum_cost": [
+        "11/2",
+        90
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Minimal Failure of Corner Tests for D4 Drainage with Two Fixed Boundary Sinks",
+  "version": "1.0",
+  "publication_date": "2026-10-26",
+  "resource_type": "Publication / Preprint",
+  "doi": "10.5281/zenodo.23652373",
+  "author": {
+    "family_name": "Yonezu",
+    "given_names": "Ryutaro",
+    "affiliation": "Yonezu Research Lab"
+  },
+  "copyright": "Copyright (c) 2026 Ryutaro Yonezu. All rights reserved.",
+  "custom_license": {
+    "title": "All rights reserved",
+    "description": "No license to reproduce, redistribute, modify or otherwise reuse this material is granted except as required by applicable law or separate written permission."
+  },
+  "description": "Research Note No.40. Unrefereed, AI-assisted public preprint v1.0,\n26 October 2026. Ryutaro Yonezu, Yonezu Research Lab.\n\nFor full rectangular unit D4 grids, an interior source, exactly two strict\nboundary sinks fixed over an entire shared two-axis tilt box, and deterministic\nlowest-strictly-lower-neighbor routing, this note proves that 12 cells is the\nexact minimum for failure of corner testing on a nondegenerate closed\naxis-aligned parameter rectangle. An integer 4-by-3 terrain has source outlet\nA at all four parameter-box corners and B at the center, with the exact rule\nA iff |a|+b >= 1 and no interior sink. A complete analytical 3-by-3 obstruction\nproves minimality within this specified class.\n\nThe deterministic forest is also encoded, including fixed ties, as a unique\nrooted minimum spanning forest. This applies established watershed/MSF theory;\nthe general mechanism is not proposed as new. Historical novelty of the\nconstrained minimum remains INCONCLUSIVE, and no priority claim is made.\n\nReceived external AI reports give mathematical and differential-audit PASS,\nincluding the MSF proof. They did not independently check the cited source\npassages or search novelty. Author-side primary-source comparisons and access\nlimits are included. Human peer review and formal proof-assistant certification\nare not claimed. Author verification used Linux/Python 3.12.14; the latest\nreceived review reports Linux/Python 3.13. Windows execution is unconfirmed.\nAdditional reviewer search code/raw logs were not supplied, and separately\nreported search counts are not pooled or presented as author reproductions.\n\nFiles: nine-page English PDF and companion ZIP containing the exact audited\nv0.5 archive and extracted files, unchanged proof bodies and standard-library\nPython verifiers, exact evidence, audit history, editable Markdown and PDF\nrenderer, the illustrative figure, provenance receipts and SHA256 manifests.\nHistorical HOLD notes in the frozen originals refer to preparation-stage\nreview; the author subsequently instructed this qualified public upload.\nThis does not upgrade novelty, references, Windows or human-review status.\n\nThis is a mathematical routing model, not empirical runoff validation.\nCopyright (c) 2026 Ryutaro Yonezu. All rights reserved. No general reuse or\nredistribution license is granted.\n\nResearch inquiries and earlier overlapping work: yonezaemon1+research@gmail.com.\nRepository: https://github.com/yonezaemon1-hub/no40-pitfree-corner-minimality\n",
+  "repository_url": "https://github.com/yonezaemon1-hub/no40-pitfree-corner-minimality",
+  "keywords": [
+    "D4 drainage",
+    "corner verification",
+    "correlated uncertainty",
+    "watershed cuts",
+    "minimum spanning forests",
+    "minimal counterexample"
+  ],
+  "language": "English"
+}

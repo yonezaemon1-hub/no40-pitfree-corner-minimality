@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the unrefereed preprint using the preferred citation. All rights reserved."
+title: "Minimal Failure of Corner Tests for D4 Drainage with Two Fixed Boundary Sinks"
+version: "1.0"
+date-released: "2026-10-26"
+doi: "10.5281/zenodo.23652373"
+repository-code: "https://github.com/yonezaemon1-hub/no40-pitfree-corner-minimality"
+authors:
+  - family-names: "Yonezu"
+    given-names: "Ryutaro"
+    affiliation: "Yonezu Research Lab"
+preferred-citation:
+  type: article
+  title: "Minimal Failure of Corner Tests for D4 Drainage with Two Fixed Boundary Sinks"
+  authors:
+    - family-names: "Yonezu"
+      given-names: "Ryutaro"
+  year: 2026
+  version: "1.0"
+  doi: "10.5281/zenodo.23652373"
+  notes: "Unrefereed, AI-assisted preprint. Historical novelty INCONCLUSIVE. No priority claim."
